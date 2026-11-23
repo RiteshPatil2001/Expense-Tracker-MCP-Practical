@@ -1,0 +1,20 @@
+
+[project]
+name = "expense-tracker-host"
+version = "0.1.0"
+description = "Streamlit host application for Expense Tracker MCP"
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit",
+    "langchain",
+    "python-dotenv",
+    "langchain-groq",
+    "langchain-mcp-adapters",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/expense_host"]
