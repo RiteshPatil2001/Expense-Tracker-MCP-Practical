@@ -4,25 +4,6 @@ An AI-powered Expense Tracker built with **Python, Streamlit, LangChain, Groq, F
 
 ---
 
-## 📌 Table of Contents
-
-- [About the Project](#-about-the-project)
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Project Architecture](#-project-architecture)
-- [Prerequisites](#-prerequisites)
-- [Step 1: Get Your Groq API Key](#-step-1-get-your-groq-api-key)
-- [Step 2: Clone the Repository](#-step-2-clone-the-repository)
-- [Step 3: Create the .env File](#-step-3-create-the-env-file)
-- [Step 4: Install MCP Server Dependencies](#-step-4-install-mcp-server-dependencies)
-- [Step 5: Install Host Dependencies](#-step-5-install-host-dependencies)
-- [Step 6: Run the Application](#-step-6-run-the-application)
-- [Example Queries](#-example-queries)
-- [Theory Notes](#-theory-notes--understanding-mcp)
-- [Troubleshooting](#-troubleshooting)
-
----
-
 ## 📖 About the Project
 
 This project shows how to build an AI application on top of **MCP (Model Context Protocol)**. It has two parts:
@@ -317,7 +298,6 @@ A separate theory-notes document is included in this repository. It covers:
 - MCP client-server communication
 - How MCP tools work
 - How an AI application talks to an MCP server
-- A practical walkthrough of the MCP server architecture used in this project
 
 Read it to understand the concepts behind the implementation, not just to run the app.
 
